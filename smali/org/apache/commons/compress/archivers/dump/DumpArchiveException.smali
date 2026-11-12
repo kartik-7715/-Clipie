@@ -1,0 +1,56 @@
+.class public Lorg/apache/commons/compress/archivers/dump/DumpArchiveException;
+.super Ljava/io/IOException;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x1L
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 9
+    invoke-direct {p0}, Ljava/io/IOException;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 8
+    invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 10
+    invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    .line 11
+    invoke-virtual {p0, p2}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/io/IOException;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-virtual {p0, p1}, Ljava/lang/Throwable;->initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method

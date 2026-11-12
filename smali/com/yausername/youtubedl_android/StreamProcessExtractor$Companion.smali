@@ -1,0 +1,37 @@
+.class public final Lcom/yausername/youtubedl_android/StreamProcessExtractor$Companion;
+.super Ljava/lang/Object;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/yausername/youtubedl_android/StreamProcessExtractor;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Companion"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lkotlin/jvm/internal/e;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/yausername/youtubedl_android/StreamProcessExtractor$Companion;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

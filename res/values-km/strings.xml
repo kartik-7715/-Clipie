@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">សម្អាត​សំណួរ</string>
+    <string name="abc_searchview_description_search">ស្វែងរក</string>
+    <string name="abc_searchview_description_submit">ដាក់បញ្ជូន​សំណួរ</string>
+    <string name="abc_searchview_description_voice">ស្វែងរក​តាម​សំឡេង</string>
+    <string name="not_set">មិនបានកំណត់</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

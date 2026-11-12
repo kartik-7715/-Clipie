@@ -1,0 +1,37 @@
+.class final Lorg/apache/commons/compress/archivers/zip/ZipConstants;
+.super Ljava/lang/Object;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+
+# static fields
+.field static final BYTE_MASK:I = 0xff
+
+.field static final DATA_DESCRIPTOR_MIN_VERSION:I = 0x14
+
+.field static final DWORD:I = 0x8
+
+.field static final INITIAL_VERSION:I = 0xa
+
+.field static final SHORT:I = 0x2
+
+.field static final WORD:I = 0x4
+
+.field static final ZIP64_MAGIC:J = 0xffffffffL
+
+.field static final ZIP64_MAGIC_SHORT:I = 0xffff
+
+.field static final ZIP64_MIN_VERSION:I = 0x2d
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method

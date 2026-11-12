@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">সন্ধান কৰা প্ৰশ্ন মচক</string>
+    <string name="abc_searchview_description_search">সন্ধান কৰক</string>
+    <string name="abc_searchview_description_submit">প্ৰশ্ন দাখিল কৰক</string>
+    <string name="abc_searchview_description_voice">কণ্ঠধ্বনিৰ দ্বাৰা সন্ধান</string>
+    <string name="not_set">ছেট কৰা হোৱা নাই</string>
+    <string name="status_bar_notification_info_overflow">৯৯৯+</string>
+</resources>

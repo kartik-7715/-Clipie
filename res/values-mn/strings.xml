@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">Асуулга арилгах</string>
+    <string name="abc_searchview_description_search">Хайх</string>
+    <string name="abc_searchview_description_submit">Асуулга илгээх</string>
+    <string name="abc_searchview_description_voice">Дуут хайлт</string>
+    <string name="not_set">Тохируулаагүй</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

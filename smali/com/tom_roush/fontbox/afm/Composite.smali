@@ -1,0 +1,122 @@
+.class public Lcom/tom_roush/fontbox/afm/Composite;
+.super Ljava/lang/Object;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+
+# instance fields
+.field private name:Ljava/lang/String;
+
+.field private parts:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lcom/tom_roush/fontbox/afm/CompositePart;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    new-instance v0, Ljava/util/ArrayList;
+
+    .line 5
+    .line 6
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object v0, p0, Lcom/tom_roush/fontbox/afm/Composite;->parts:Ljava/util/List;
+
+    .line 10
+    .line 11
+    return-void
+.end method
+
+
+# virtual methods
+.method public addPart(Lcom/tom_roush/fontbox/afm/CompositePart;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/tom_roush/fontbox/afm/Composite;->parts:Ljava/util/List;
+
+    .line 2
+    .line 3
+    invoke-interface {p0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public getName()Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lcom/tom_roush/fontbox/afm/Composite;->name:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public getParts()Ljava/util/List;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/tom_roush/fontbox/afm/CompositePart;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p0, p0, Lcom/tom_roush/fontbox/afm/Composite;->parts:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-object p0
+.end method
+
+.method public setName(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/tom_roush/fontbox/afm/Composite;->name:Ljava/lang/String;
+
+    .line 2
+    .line 3
+    return-void
+.end method
+
+.method public setParts(Ljava/util/List;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Lcom/tom_roush/fontbox/afm/CompositePart;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iput-object p1, p0, Lcom/tom_roush/fontbox/afm/Composite;->parts:Ljava/util/List;
+
+    .line 2
+    .line 3
+    return-void
+.end method

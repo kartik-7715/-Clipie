@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">ક્વેરી સાફ કરો</string>
+    <string name="abc_searchview_description_search">શોધો</string>
+    <string name="abc_searchview_description_submit">ક્વેરી સબમિટ કરો</string>
+    <string name="abc_searchview_description_voice">વૉઇસ શોધ</string>
+    <string name="not_set">સેટ કર્યું નથી</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

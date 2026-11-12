@@ -1,0 +1,66 @@
+.class public interface abstract Lcom/google/mediapipe/formats/proto/LocationDataProto$LocationDataOrBuilder;
+.super Ljava/lang/Object;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+# interfaces
+.implements Lcom/google/protobuf/h2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/mediapipe/formats/proto/LocationDataProto;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "LocationDataOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract getBoundingBox()Lcom/google/mediapipe/formats/proto/LocationDataProto$LocationData$BoundingBox;
+.end method
+
+.method public abstract synthetic getDefaultInstanceForType()Lcom/google/protobuf/g2;
+.end method
+
+.method public abstract getFormat()Lcom/google/mediapipe/formats/proto/LocationDataProto$LocationData$Format;
+.end method
+
+.method public abstract getMask()Lcom/google/mediapipe/formats/proto/LocationDataProto$LocationData$BinaryMask;
+.end method
+
+.method public abstract getRelativeBoundingBox()Lcom/google/mediapipe/formats/proto/LocationDataProto$LocationData$RelativeBoundingBox;
+.end method
+
+.method public abstract getRelativeKeypoints(I)Lcom/google/mediapipe/formats/proto/LocationDataProto$LocationData$RelativeKeypoint;
+.end method
+
+.method public abstract getRelativeKeypointsCount()I
+.end method
+
+.method public abstract getRelativeKeypointsList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/mediapipe/formats/proto/LocationDataProto$LocationData$RelativeKeypoint;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract hasBoundingBox()Z
+.end method
+
+.method public abstract hasFormat()Z
+.end method
+
+.method public abstract hasMask()Z
+.end method
+
+.method public abstract hasRelativeBoundingBox()Z
+.end method
+
+.method public abstract synthetic isInitialized()Z
+.end method

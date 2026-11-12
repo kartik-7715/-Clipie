@@ -1,0 +1,76 @@
+.class public final Lapp/clipie/mobile/engine/ClipEngineChannel$3;
+.super Ljava/lang/Object;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+# interfaces
+.implements Lb5/i;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lapp/clipie/mobile/engine/ClipEngineChannel;-><init>(Landroid/content/Context;Lb5/f;Landroid/app/Activity;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lapp/clipie/mobile/engine/ClipEngineChannel;
+
+
+# direct methods
+.method public constructor <init>(Lapp/clipie/mobile/engine/ClipEngineChannel;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lapp/clipie/mobile/engine/ClipEngineChannel$3;->this$0:Lapp/clipie/mobile/engine/ClipEngineChannel;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public onCancel(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lapp/clipie/mobile/engine/ClipEngineChannel$3;->this$0:Lapp/clipie/mobile/engine/ClipEngineChannel;
+
+    .line 2
+    .line 3
+    const/4 p1, 0x0
+
+    .line 4
+    invoke-static {p0, p1}, Lapp/clipie/mobile/engine/ClipEngineChannel;->access$setProgressSink$p(Lapp/clipie/mobile/engine/ClipEngineChannel;Lb5/g;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+.method public onListen(Ljava/lang/Object;Lb5/g;)V
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lapp/clipie/mobile/engine/ClipEngineChannel$3;->this$0:Lapp/clipie/mobile/engine/ClipEngineChannel;
+
+    .line 2
+    .line 3
+    invoke-static {p0, p2}, Lapp/clipie/mobile/engine/ClipEngineChannel;->access$setProgressSink$p(Lapp/clipie/mobile/engine/ClipEngineChannel;Lb5/g;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

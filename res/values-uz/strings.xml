@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">So‘rovni o‘chirish</string>
+    <string name="abc_searchview_description_search">Qidiruv</string>
+    <string name="abc_searchview_description_submit">So‘rov yaratish</string>
+    <string name="abc_searchview_description_voice">Ovozli qidiruv</string>
+    <string name="not_set">Tayinlanmagan</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

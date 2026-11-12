@@ -1,0 +1,154 @@
+.class public abstract Lcom/google/common/flogger/context/ScopeMetadata;
+.super Lcom/google/common/flogger/backend/Metadata;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/common/flogger/context/ScopeMetadata$EmptyMetadata;,
+        Lcom/google/common/flogger/context/ScopeMetadata$SingletonMetadata;,
+        Lcom/google/common/flogger/context/ScopeMetadata$ImmutableScopeMetadata;,
+        Lcom/google/common/flogger/context/ScopeMetadata$Builder;,
+        Lcom/google/common/flogger/context/ScopeMetadata$Entry;
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 5
+    invoke-direct {p0}, Lcom/google/common/flogger/backend/Metadata;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/google/common/flogger/context/ScopeMetadata$1;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/google/common/flogger/context/ScopeMetadata;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+.method public static builder()Lcom/google/common/flogger/context/ScopeMetadata$Builder;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lcom/google/common/flogger/context/ScopeMetadata$Builder;
+
+    .line 2
+    .line 3
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-direct {v0, v1}, Lcom/google/common/flogger/context/ScopeMetadata$Builder;-><init>(Lcom/google/common/flogger/context/ScopeMetadata$1;)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-object v0
+.end method
+
+.method public static none()Lcom/google/common/flogger/context/ScopeMetadata;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/google/common/flogger/context/ScopeMetadata$EmptyMetadata;->INSTANCE:Lcom/google/common/flogger/context/ScopeMetadata;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public static singleton(Lcom/google/common/flogger/MetadataKey;Ljava/lang/Object;)Lcom/google/common/flogger/context/ScopeMetadata;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lcom/google/common/flogger/MetadataKey<",
+            "TT;>;TT;)",
+            "Lcom/google/common/flogger/context/ScopeMetadata;"
+        }
+    .end annotation
+
+    .line 1
+    new-instance v0, Lcom/google/common/flogger/context/ScopeMetadata$SingletonMetadata;
+
+    .line 2
+    .line 3
+    invoke-direct {v0, p0, p1}, Lcom/google/common/flogger/context/ScopeMetadata$SingletonMetadata;-><init>(Lcom/google/common/flogger/MetadataKey;Ljava/lang/Object;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public abstract concatenate(Lcom/google/common/flogger/context/ScopeMetadata;)Lcom/google/common/flogger/context/ScopeMetadata;
+.end method
+
+.method public abstract get(I)Lcom/google/common/flogger/context/ScopeMetadata$Entry;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)",
+            "Lcom/google/common/flogger/context/ScopeMetadata$Entry<",
+            "*>;"
+        }
+    .end annotation
+.end method
+
+.method public getKey(I)Lcom/google/common/flogger/MetadataKey;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I)",
+            "Lcom/google/common/flogger/MetadataKey<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/google/common/flogger/context/ScopeMetadata;->get(I)Lcom/google/common/flogger/context/ScopeMetadata$Entry;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    iget-object p0, p0, Lcom/google/common/flogger/context/ScopeMetadata$Entry;->key:Lcom/google/common/flogger/MetadataKey;
+
+    .line 6
+    .line 7
+    return-object p0
+.end method
+
+.method public getValue(I)Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lcom/google/common/flogger/context/ScopeMetadata;->get(I)Lcom/google/common/flogger/context/ScopeMetadata$Entry;
+
+    .line 2
+    .line 3
+    .line 4
+    move-result-object p0
+
+    .line 5
+    iget-object p0, p0, Lcom/google/common/flogger/context/ScopeMetadata$Entry;->value:Ljava/lang/Object;
+
+    .line 6
+    .line 7
+    return-object p0
+.end method

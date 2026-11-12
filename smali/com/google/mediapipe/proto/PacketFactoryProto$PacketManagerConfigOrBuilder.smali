@@ -1,0 +1,42 @@
+.class public interface abstract Lcom/google/mediapipe/proto/PacketFactoryProto$PacketManagerConfigOrBuilder;
+.super Ljava/lang/Object;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+# interfaces
+.implements Lcom/google/protobuf/h2;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/google/mediapipe/proto/PacketFactoryProto;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "PacketManagerConfigOrBuilder"
+.end annotation
+
+
+# virtual methods
+.method public abstract synthetic getDefaultInstanceForType()Lcom/google/protobuf/g2;
+.end method
+
+.method public abstract getPacket(I)Lcom/google/mediapipe/proto/PacketFactoryProto$PacketFactoryConfig;
+.end method
+
+.method public abstract getPacketCount()I
+.end method
+
+.method public abstract getPacketList()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lcom/google/mediapipe/proto/PacketFactoryProto$PacketFactoryConfig;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract synthetic isInitialized()Z
+.end method

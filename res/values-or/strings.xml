@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">କ୍ୱେରୀ ଖାଲି କରନ୍ତୁ</string>
+    <string name="abc_searchview_description_search">ସନ୍ଧାନ କରନ୍ତୁ</string>
+    <string name="abc_searchview_description_submit">କ୍ୱେରୀ ଦାଖଲ କରନ୍ତୁ</string>
+    <string name="abc_searchview_description_voice">ଭଏସ୍‌ ସର୍ଚ୍ଚ</string>
+    <string name="not_set">ସେଟ୍ ହୋଇନାହିଁ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">විමසුම හිස් කරන්න</string>
+    <string name="abc_searchview_description_search">සෙවීම</string>
+    <string name="abc_searchview_description_submit">විමසුම යොමු කරන්න</string>
+    <string name="abc_searchview_description_voice">හඬ සෙවීම</string>
+    <string name="not_set">සකසා නැත</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

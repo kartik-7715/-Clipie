@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_searchview_description_clear">வினவலை அழிக்கும்</string>
+    <string name="abc_searchview_description_search">தேடும்</string>
+    <string name="abc_searchview_description_submit">வினவலைச் சமர்ப்பிக்கும்</string>
+    <string name="abc_searchview_description_voice">குரல் தேடல்</string>
+    <string name="not_set">அமைக்கப்படவில்லை</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

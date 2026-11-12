@@ -1,0 +1,19 @@
+.class public interface abstract Lorg/chromium/support_lib_boundary/WebMessageBoundaryInterface;
+.super Ljava/lang/Object;
+.source "r8-map-id-5779363c66e22f86fbfcc30c9269f6af5776ffefdf8df60d5b58c62dac7d20b4"
+
+# interfaces
+.implements Lorg/chromium/support_lib_boundary/FeatureFlagHolderBoundaryInterface;
+
+
+# virtual methods
+.method public abstract getData()Ljava/lang/String;
+    .annotation runtime Ljava/lang/Deprecated;
+    .end annotation
+.end method
+
+.method public abstract getMessagePayload()Ljava/lang/reflect/InvocationHandler;
+.end method
+
+.method public abstract getPorts()[Ljava/lang/reflect/InvocationHandler;
+.end method
